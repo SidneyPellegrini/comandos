@@ -1,0 +1,24 @@
+Fork
+É puxar o código de alguém para si, a partir do github.
+
+Branch
+É criar uma nova linha cronológica no projeto.
+
+Commit
+É criar um ponto na linha cronológica do projeto.
+Após o commit é necessário o push.
+
+Merge
+É a junção de branches.
+Funciona se foram alterados dados não conflitantes.
+
+Remote
+É a conexão do GIT (repositório no computador) com o GitHub.
+
+Push
+Coloca o commit feito no repositório do computador no remote (GitHub)
+
+Pull
+É o contrário do Push.
+Traz para o repositório do computador o conteúdo do remote (GitHub)
+

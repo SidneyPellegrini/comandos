@@ -1,0 +1,54 @@
+git init
+inicia um repositório git
+Antes de comandar vá para dentro da pasta que será o repositório
+git init
+
+git add
+envia arquivos para a área de staging (antes do commit)
+git add <nome.ext>
+
+git status
+exibe arquivos prontos para sofrer commit (arquivos que já sofreram add)
+
+git commit
+cria um ponto na linha cronológica do projeto
+git commit -m "mensagem que identifica esse commit"
+repare que o commit é algo local; ainda não há comunicação com o github
+
+git remote
+cria a conexão do GIT (repositório no computador) com o GitHub
+(o remote só é comandado uma única vez, pois cria uma conexão permanente)
+navegue com CD até o main desejado
+git remote add origin <link github> 
+Observação: para colar utilize Insert ou CTRL + SHIFT + V
+
+Push
+coloca o commit feito no repositório do computador (GIT) no remote (GitHub)
+git push -u origin main
+
+
+
+
+Fork
+É puxar o código de alguém para si, a partir do github.
+
+Branch
+É criar uma nova linha cronológica no projeto.
+
+Commit
+É criar um ponto na linha cronológica do projeto.
+Após o commit é necessário o push.
+
+Merge
+É a junção de branches.
+Funciona se foram alterados dados não conflitantes.
+
+Remote
+É a conexão do GIT (repositório no computador) com o GitHub.
+
+Push
+Coloca o commit feito no repositório do computador no remote (GitHub)
+
+Pull
+É o contrário do Push.
+Traz para o repositório do computador o conteúdo do remote (GitHub)
