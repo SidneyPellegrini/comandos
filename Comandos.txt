@@ -1,6 +1,13 @@
 Fork
 É puxar o código de alguém para si, a partir do github.
 
+Clone
+É puxar o código do seu github para o repositório do seu computador.
+
+Qual é a diferença do clone para o fork?
+clone- cópia do repositório original e não permite o pull, a menos que seja adicionado como colaborador 
+fork - faz o clone para o repositório do github e cria conexão que permite o pull
+
 Branch
 É criar uma nova linha cronológica no projeto.
 
